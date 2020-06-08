@@ -1,3 +1,5 @@
+--ui-message='Welcome to Flux'
+
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -73,4 +75,3 @@ spec:
           requests:
             cpu: 10m
             memory: 64Mi
-   --ui-message='Welcome to Flux'
